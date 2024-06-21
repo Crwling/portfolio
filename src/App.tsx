@@ -4,6 +4,8 @@ import Contacts from './components/contacts'
 import Projects from './components/projects'
 import Experience from './components/experience'
 
+import coverImg from './assets/cover.png';
+
 import './index.css'
 
 const App: React.FC = () => {
@@ -40,7 +42,7 @@ const App: React.FC = () => {
       </div>
 
       <div className='right-side-component sticky top-28 max-h-screen basis-5/12 m-16 mt-28'>
-        <img src='../public/cover.png' className='h-64 ml-20'/>
+        <img src={coverImg} className='h-64 ml-20'/>
         <div className='text-right text-2xl w-72'>Ivan Balyko</div>
         <h1 className='text-right w-72'>Web developer</h1>
 

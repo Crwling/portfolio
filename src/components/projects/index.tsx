@@ -1,12 +1,16 @@
 import React from "react"
 
+import kanbanImg from "../../assets/kanban.png"
+import shopImg from "../../assets/shop.png"
+import todoImg from "../../assets/todo-list.png"
+
 const Projects: React.FC = () => (
   <div className="mt-2">
     <a href="https://kanban-beryl-seven.vercel.app/" target="_blank"
       className="flex flex-row hover:drop-shadow-lg rounded hover:bg-slate-100/35"
     >
       <img 
-        src="../../../public/kanban.png" 
+        src={kanbanImg} 
         alt="kanban application" 
         loading="lazy" 
         width="200" height="48"
@@ -28,7 +32,7 @@ const Projects: React.FC = () => (
       className="flex flex-row hover:drop-shadow-lg mt-1 rounded hover:bg-slate-100/35"
     >
       <img 
-        src="../../../public/shop.png" 
+        src={shopImg} 
         alt="shop" 
         loading="lazy" 
         width="200" height="48"
@@ -46,11 +50,11 @@ const Projects: React.FC = () => (
       </div>
     </a>
 
-    <a href="https://todo-list-rust-nine.vercel.app/" target="_blank"
+    <a href="https://todo-list-git-master-ivans-projects-13cba397.vercel.app/" target="_blank"
       className="flex flex-row hover:drop-shadow-lg mt-1 rounded hover:bg-slate-100/35"
     >
       <img 
-        src="../../../public/todo-list.png" 
+        src={todoImg}
         alt="todo" 
         loading="lazy" 
         width="200" height="48"

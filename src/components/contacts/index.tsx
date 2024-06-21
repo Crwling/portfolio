@@ -5,10 +5,13 @@ import LinkedInIcon from "../icons/linkedin";
 import WhatsappIcon from "../icons/whatsapp";
 import Button from "../button";
 
+
+import cv from "../../assets/CV Balyko.pdf"
+
 const Contacts: React.FC = () => (
 
   <div className="w-72 text-right">
-    <a href="../../../public/CV Balyko.pdf" target="_blank">
+    <a href={cv} target="_blank">
       <Button className="mr-2">CV</Button>
     </a>
     <p className="mt-5">Email:</p>
